@@ -1,6 +1,5 @@
 <script lang="ts" setup>
 import HomeCard from '@/components/HomeCard.vue';
-import cards from '../cards.json'
 </script>
 <template>
 <div class="container project-box">

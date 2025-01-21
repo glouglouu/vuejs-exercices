@@ -1,11 +1,8 @@
 <script setup lang="ts">
-// import NextuRegistrationView from './views/NextuRegistrationView.vue'
-import HomeProjectView from './views/HomeProjectView.vue'
-import cards from '../cards.json'
+import NextuRegistrationView from './views/NextuRegistrationView.vue'
 </script>
 <template>
-  <div>Hello</div>
-  <HomeProjectView v-for="card in cards" :key="card.id" :card="card"/>
+  <NextuRegistrationView/>
 </template>
 <style scoped>
 header {
